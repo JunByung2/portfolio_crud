@@ -38,7 +38,7 @@ export default async function Home() {
             />
           </div>
           <h2 className="text-center font-semibold text-xl mt-5">
-            "{username}님 반갑습니다. 한 줄 쓰면 주인장이 춤춥니다."
+            {username}님 반갑습니다. 한 줄 쓰면 주인장이 춤춥니다.
           </h2>
           <CommentList comments={comments} />
           <AddComment />
