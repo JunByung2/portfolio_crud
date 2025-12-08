@@ -2,7 +2,16 @@ import Image from "next/image";
 import mainImage from "../image/2.webp";
 import apple from "../image/apple.png";
 
-export default function Home() {
+import { auth } from "@/auth";
+import CommentList from "@/components/commentList";
+import { getAllComments } from "@/actions/commentAction";
+import AddComment from "@/components/AddComment";
+
+export default async function Home() {
+  const session = await auth();
+  const username = session?.user?.name || "방문자";
+  const { comments } = await getAllComments();
+
   return (
     <div>
       <div className="mt-25 flex justify-center">
@@ -28,6 +37,11 @@ export default function Home() {
               className="mt-15"
             />
           </div>
+          <h2 className="text-center font-semibold text-xl mt-5">
+            "{username}님 반갑습니다. 한 줄 쓰면 주인장이 춤춥니다."
+          </h2>
+          <CommentList comments={comments} />
+          <AddComment />
         </div>
       </div>
     </div>

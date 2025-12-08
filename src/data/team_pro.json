@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "school-supporter",
+    "image": "/image/team_pro1.jpg",
+    "description": "Next.js, MongoDB, NextAuth를 이용한 학교생활 지원 웹 애플리케이션",
+    "link": "https://school-supporter.vercel.app/"
+  },
+  {
+    "id": 2,
+    "title": "web_deployment_information",
+    "image": "/image/team_pro2.jpg",
+    "description": "html, css, js를 이용한 웹 개발 정보 웹페이지",
+    "link": "https://team2-tawny.vercel.app/"
+  },
+  {
+    "id": 3,
+    "title": "생성형 AI",
+    "image": "/image/team_pro3.jpg",
+    "description": "html, css, js를 이용한 생성형 AI 정보 웹페이지",
+    "link": "team-pro-lemon.vercel.app/"
+  }
+]
