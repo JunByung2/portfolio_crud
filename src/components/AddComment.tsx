@@ -19,6 +19,13 @@ export default function AddComment() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    if (!session) {
+      alert("로그인을 해주세요.");
+      router.push("/login");
+      return;
+    }
+
     try {
       await createComment(comment, who);
       router.push("/");
@@ -27,6 +34,7 @@ export default function AddComment() {
       alert("생성 중 오류 발생");
     }
   };
+
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-3">
       <input type="hidden" value={who} />
