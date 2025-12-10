@@ -2,7 +2,7 @@
   {
     "id": 8,
     "title": "ABLY-MALL",
-    "image": "/image/pro7.jpg",
+    "image": "/image/pro7.JPG",
     "description": "쇼핑몰 예제 프로젝트 따라 구현",
     "link": "https://ably-mall-ashy.vercel.app/"
   },
@@ -10,21 +10,21 @@
   {
     "id": 7,
     "title": "CRUD",
-    "image": "/image/pro6.jpg",
+    "image": "/image/pro6.JPG",
     "description": "next.js사용, CRUD기능 구현 (api 사용), NextAuth로그인 기능",
     "link": "https://crud-one-nu.vercel.app/"
   },
   {
     "id": 6,
     "title": "CRUD-ACTION",
-    "image": "/image/pro5.jpg",
+    "image": "/image/pro5.JPG",
     "description": "next.js를 이용하여 CRUD기능 구현",
     "link": "https://crud-action-sigma.vercel.app/"
   },
   {
     "id": 5,
     "title": "Next.js_portfolio",
-    "image": "/image/pro4.jpg",
+    "image": "/image/pro4.JPG",
     "description": "next.js를 사용하여 만든 개인 포트폴리오 페이지",
     "link": "https://next-js-portfolio-jhve.vercel.app/"
   },
@@ -32,7 +32,7 @@
   {
     "id": 2,
     "title": "clerk-app",
-    "image": "/image/project2.jpg",
+    "image": "/image/project2.JPG",
     "description": "Next.js를 이용하여 여러 페이지를 만들며 실습한 예제 페이지",
     "link": "https://clerk-app-git-main-junbyung2s-projects.vercel.app/"
   },
@@ -46,14 +46,14 @@
   {
     "id": 4,
     "title": "Portfolio_2",
-    "image": "/image/pro1.jpg",
+    "image": "/image/pro1.JPG",
     "description": "HTML, CSS, JavaScript를 사용하여 만든 개인 포트폴리오 페이지",
     "link": "https://song-s-portfolio.vercel.app/"
   },
   {
     "id": 3,
     "title": "Portfolio_1",
-    "image": "/image/pro3.jpg",
+    "image": "/image/pro3.JPG",
     "description": "HTML, CSS를 사용하여 만든 개인 포트폴리오 페이지",
     "link": "https://portfolio-iota-eosin-82.vercel.app/"
   }
